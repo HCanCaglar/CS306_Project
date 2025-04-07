@@ -1,7 +1,7 @@
 
 DELIMITER //
 
-CREATE TRIGGER check_room_vacancy 
+CREATE TRIGGER room_vacancy_check 
 BEFORE INSERT ON Reserve 
 FOR EACH ROW 
 BEGIN 
