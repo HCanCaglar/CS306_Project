@@ -17,7 +17,7 @@ AND OLD.RoomType = NEW.RoomType
 AND OLD.Pricing = NEW.Pricing THEN
 	
     SELECT U.PSpotNum INTO parking_spot
-	FROM _Use U, Reserve R
+	FROM P_Use U, Reserve R
 	WHERE U.GuestID = R.GuestID AND R.RoomID = NEW.RoomID;
     
 	SELECT PayStatus INTO parking_payment FROM Parking WHERE PSpotNum = parking_spot;
