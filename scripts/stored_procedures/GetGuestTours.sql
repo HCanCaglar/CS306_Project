@@ -3,6 +3,8 @@ DELIMITER //
 CREATE PROCEDURE GetGuestTours(IN guest_name CHAR(20), IN guest_surname CHAR(20))
 BEGIN
     SELECT 
+        g.Name AS 'Guest Name',
+        g.Surname AS 'Guest Surname',
         t.Tname AS 'Tour Name', 
         t.TourType AS 'Tour Type', 
         t.Tcompany AS 'Tour Company'
