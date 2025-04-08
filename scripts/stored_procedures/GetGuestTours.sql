@@ -15,7 +15,7 @@ BEGIN
     JOIN 
         Tours t ON a.TID = t.TID
     WHERE 
-        g.Name = guest_name AND g.Surname = guest_surname;
+        BINARY g.Name = guest_name AND BINARY g.Surname = guest_surname;
 END //
 
 DELIMITER ;
