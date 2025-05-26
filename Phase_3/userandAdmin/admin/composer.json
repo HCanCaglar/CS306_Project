@@ -1,0 +1,11 @@
+{
+    "name": "chronomortis/admin",
+    "autoload": {
+        "psr-4": {
+            "Chronomortis\\Admin\\": "src/"
+        }
+    },
+    "require": {
+        "mongodb/mongodb": "^2.1"
+    }
+}
