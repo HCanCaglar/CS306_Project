@@ -19,6 +19,7 @@
         <div style="border: 1px solid blue; padding: 10px; margin: 5px;">
             <h3>Guest Age Check</h3>
             <p>This trigger ensures that guests must be at least 18 years old to make a reservation.</p>
+            <p><strong>By:</strong> Ahmet Nusret Avcı</p>
             <a href="trigger_guest_age.php">Test Guest Age Check Trigger</a>
         </div>
         <div style="border: 1px solid blue; padding: 10px; margin: 5px;">
@@ -41,6 +42,7 @@
         <div style="border: 1px solid blue; padding: 10px; margin: 5px;">
             <h3>Get Guest Tours</h3>
             <p>This procedure retrieves all tours that a specific guest has attended, based on their name and surname.</p>
+            <p><strong>By:</strong> Ahmet Nusret Avcı</p>
             <a href="procedure_guest_tours.php">View Guest Tours</a>
         </div>
         <!-- Add more stored procedures as needed -->

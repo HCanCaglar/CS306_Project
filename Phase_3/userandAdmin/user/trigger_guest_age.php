@@ -10,7 +10,7 @@ $results = [];
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST["test_adult"])) {
         // Test case 1: Try to reserve with an adult guest (age >= 18)
-        $guestId = 1; // Assuming this is an adult guest
+        $guestId = 1;
         $roomId = 101;
                         
         try {
@@ -33,8 +33,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     if (isset($_POST["test_minor"])) {
         // Test case 2: Try to reserve with a minor guest (age < 18)
-        $guestId = 2; // Assuming this is a minor guest
-        $roomId = 102;
+        $guestId = 11;
+        $roomId = 601;
         
         try {
             $sql = "INSERT INTO Reserve (GuestID, RoomID, BookingDate, Duration, ResStatus) VALUES ($guestId, $roomId, '2025-05-15', 2, 'Confirmed')";
@@ -71,6 +71,7 @@ $conn->close();
     <div style="border: 1px solid black; padding: 10px; margin: 10px;">
         <h2>Description:</h2>
         <p>This trigger prevents reservations from being made by guests who are under 18 years old.</p>
+        <strong>By: Ahmet Nusret Avcı</strong>
     </div>
     
     <div style="border: 1px solid black; padding: 10px; margin: 10px;">
