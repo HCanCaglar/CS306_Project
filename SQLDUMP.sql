@@ -134,7 +134,8 @@ VALUES
 (9, 'Benjamin', 'Taylor', '1997-06-22', 7, 'Not Applied', FALSE),
 (10, 'Charlotte', 'Anderson', '2001-10-05', 4, 'Applied', TRUE),
 (11, 'John', 'Doe', '2018-08-12', 1, 'Not Applied', FALSE),
-(12, 'Jane', 'Smith', '1999-03-15', 2, 'Not Applied', FALSE);
+(12, 'Jane', 'Smith', '1999-03-15', 2, 'Not Applied', FALSE),
+(13, 'Jay', 'Day', '1997-03-15', 2, 'Not Applied', FALSE);
 
 INSERT INTO Rooms(RoomID, Amenities, Pricing, RoomType, Capacity, Vacancy)
 VALUES
@@ -149,7 +150,9 @@ VALUES
 (501, 'WiFi, Smart TV, Full Bar, Air Conditioning, Espresso Machine, Office Space, Living Room, Kitchen, Jacuzzi, Private Pool, Panoramic View', 800, 'Presidential Suite', 6, false),
 (502, 'WiFi, Smart TV, Full Bar, Air Conditioning, Espresso Machine, Office Space, Multiple Living Rooms, Full Kitchen, Multiple Bathrooms, Jacuzzi, Private Pool, 360-Degree View', 1200, 'Penthouse', 8, false),
 (601, 'WiFi, TV, Mini Fridge, Air Conditioning, Coffee Maker', 120, 'Standard', 2, true),
-(602, 'WiFi, TV, Mini Fridge, Air Conditioning, Coffee Maker, Balcony', 140, 'Standard', 2, true);
+(602, 'WiFi, TV, Mini Fridge, Air Conditioning, Coffee Maker, Balcony', 140, 'Standard', 2, true),
+(701, 'WiFi, TV, Mini Fridge, Air Conditioning, Coffee Maker, Balcony', 140, 'Standard', 2, true);
+
 
 INSERT INTO Employees (WorkingDays, EmpRank, EmpRole, EmpSurname, EmpName, SSN) 
 VALUES

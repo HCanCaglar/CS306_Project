@@ -13,10 +13,10 @@ $results = [];
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST["test_vacant"])) {
         // Test case 1: Try to reserve a vacant room
-        $roomId = 202;
+        $roomId = 701;
                         
         try {
-            $sql = "INSERT INTO Reserve (GuestID, RoomID, BookingDate, Duration, ResStatus) VALUES (1, $roomId, '2025-05-15',  3, 'Confirmed')";
+            $sql = "INSERT INTO Reserve (GuestID, RoomID, BookingDate, Duration, ResStatus) VALUES (13, $roomId, '2025-05-15',  3, 'Confirmed')";
             if ($conn->query($sql) === TRUE) {
                 $results[] = (object)[
                     'body' => "Reservation successful for vacant room (Room ID: $roomId)",
