@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <h1>Create Support Ticket</h1>
     
     <div style="margin-bottom: 20px;">
-        <a href="../index.php">Back to Homepage</a> | 
+        <a href="index.php">Back to Homepage</a> | 
         <a href="tickets.php">Back to Ticket List</a>
     </div>
     

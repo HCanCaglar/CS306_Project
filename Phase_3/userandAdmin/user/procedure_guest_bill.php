@@ -43,6 +43,7 @@ $conn->close();
     <div style="border: 1px solid black; padding: 10px; margin: 10px;">
         <h2>Description:</h2>
         <p>This stored procedure calculates the total bill for a guest, including room charges, parking fees, and any applicable loyalty discounts.</p>
+        <strong>By: Hıdır Can Çağlar</strong>
     </div>
     
     <div style="border: 1px solid black; padding: 10px; margin: 10px;">

@@ -70,6 +70,7 @@ $conn->close();
     <div style="border: 1px solid black; padding: 10px; margin: 10px;">
         <h2>Description:</h2>
         <p>This trigger prevents check-out of a guest from the hotel(vacating a room) prior to paying for parking.</p>
+        <strong>By: Mehmet Berkay Çatak</strong>
     </div>
     
     <div style="border: 1px solid black; padding: 10px; margin: 10px;">

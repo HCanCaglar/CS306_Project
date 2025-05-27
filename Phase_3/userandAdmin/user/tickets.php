@@ -24,7 +24,8 @@ if ($selectedUser) {
 <body>
     <h1>Support Tickets</h1>
     <div style="margin-bottom: 20px;">
-        <a href="index.php">Back to Homepage</a>
+        <a href="index.php">Back to Homepage</a> |
+        <a href="create_ticket.php">Create New Ticket</a>
     </div>
 
     <div style="border: 1px solid black; padding: 10px; margin: 10px;">
@@ -43,11 +44,7 @@ if ($selectedUser) {
     </div>
 
     <?php if ($selectedUser): ?>
-        <div style="margin: 20px 0;">
-            <a href="create_ticket.php?username=<?php echo $selectedUser; ?>">Create New Ticket</a>
-        </div>
-
-        <div style="border: 1px solid black; padding: 10px; margin: 10px;">
+       <div style="border: 1px solid black; padding: 10px; margin: 10px;">
             <h2>Your Tickets</h2>
             <?php
             $resultsArray = $results ? iterator_to_array($results) : [];
@@ -68,7 +65,6 @@ if ($selectedUser) {
         <div style="border: 1px solid black; padding: 10px; margin: 10px;">
             <h2>No Active Tickets</h2>
             <p>There are no active tickets in the system.</p>
-            <a href="create_ticket.php">Create New Ticket</a>
         </div>
     <?php endif; ?>
 </body>

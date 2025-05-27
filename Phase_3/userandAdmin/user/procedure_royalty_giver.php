@@ -42,6 +42,7 @@ $conn->close();
     <div style="border: 1px solid black; padding: 10px; margin: 10px;">
         <h2>Description:</h2>
         <p>This stored procedure checks the eligibility of a guest to be a part of the loyalty program and accepts them to the program if they're eligible.</p>
+        <strong>By: Mehmet Berkay Çatak</strong>
     </div>
     
     <div style="border: 1px solid black; padding: 10px; margin: 10px;">

@@ -45,6 +45,7 @@ $conn->close();
     <div style="border: 1px solid black; padding: 10px; margin: 10px;">
         <h2>Description:</h2>
         <p>This stored procedure retrieves all tours that a specific guest has attended, based on their name and surname.</p>
+        <strong>By: Ahmet Nusret Avcı</strong>
     </div>
     
     <div style="border: 1px solid black; padding: 10px; margin: 10px;">
