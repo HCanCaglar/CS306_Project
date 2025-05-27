@@ -10,8 +10,8 @@ $results = [];
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST["test_adult"])) {
         // Test case 1: Try to reserve with an adult guest (age >= 18)
-        $guestId = 1;
-        $roomId = 101;
+        $guestId = 12;
+        $roomId = 601;
                         
         try {
             $sql = "INSERT INTO Reserve (GuestID, RoomID, BookingDate, Duration, ResStatus) VALUES ($guestId, $roomId, '2025-05-15', 3, 'Confirmed')";
@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST["test_minor"])) {
         // Test case 2: Try to reserve with a minor guest (age < 18)
         $guestId = 11;
-        $roomId = 601;
+        $roomId = 602;
         
         try {
             $sql = "INSERT INTO Reserve (GuestID, RoomID, BookingDate, Duration, ResStatus) VALUES ($guestId, $roomId, '2025-05-15', 2, 'Confirmed')";

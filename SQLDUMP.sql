@@ -133,7 +133,8 @@ VALUES
 (8, 'Emily', 'Moore', '2006-01-19', 3, 'Applied', TRUE),
 (9, 'Benjamin', 'Taylor', '1997-06-22', 7, 'Not Applied', FALSE),
 (10, 'Charlotte', 'Anderson', '2001-10-05', 4, 'Applied', TRUE),
-(11, 'John', 'Smith', '2018-08-12', 1, 'Not Applied', FALSE);
+(11, 'John', 'Doe', '2018-08-12', 1, 'Not Applied', FALSE),
+(12, 'Jane', 'Smith', '1999-03-15', 2, 'Not Applied', FALSE);
 
 INSERT INTO Rooms(RoomID, Amenities, Pricing, RoomType, Capacity, Vacancy)
 VALUES
