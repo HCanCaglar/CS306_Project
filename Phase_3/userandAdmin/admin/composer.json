@@ -7,5 +7,10 @@
     },
     "require": {
         "mongodb/mongodb": "^2.1"
+    },
+    "config": {
+        "platform": {
+            "php": "8.2"
+        }
     }
 }
