@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
     if (isset($_POST["test_unpaid"])) {
-        // Test case 2: Try to reserve with a minor guest (age < 18)
+        // Test case 2: Parking payment isn't completed prior to checkout.
         $roomId = 501;
         
         try {
